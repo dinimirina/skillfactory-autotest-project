@@ -60,5 +60,5 @@ requests==2.28.2
 
 ## Скриншот
 
-![App Screenshot](https://i.postimg.cc/15BPNdVg/image.png)
+![App Screenshot](https://i.postimg.cc/FzgZK3RS/image.png)
 
