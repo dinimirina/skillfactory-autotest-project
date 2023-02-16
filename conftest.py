@@ -7,8 +7,6 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
-# pytest -s -v test_items.py по умолчанию запустится как:
-# pytest -s -v --browser_name=firefox --language=es test_items.py
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
@@ -25,13 +23,8 @@ def pytest_runtest_makereport(item, call):
 
 @pytest.fixture(scope="function")
 def browser(request):
-	path = r"C:\СОФТ\geckodriver-v0.32.2-win64"
-	options = Options()
-	options.binary_location = "C:\\Program Files\\LibreWolf\\librewolf.exe"
 	print("\nstart firefox browser for test..")
-	# FirefoxProfile = webdriver.FirefoxProfile()
-	# options.set_preference("intl.accept_languages", browser_lang)
-	browser = webdriver.Firefox(path, options = options) 
+	browser = webdriver.Firefox() 
 	yield browser
 	print("\nquit browser..")
 	browser.quit()
