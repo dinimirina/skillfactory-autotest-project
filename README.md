@@ -19,6 +19,7 @@
  - [Selenium](https://selenium-python.readthedocs.io/)
  - [Temporary Mail API](https://apilayer.com/marketplace/temp_mail-api#authentication)
  - [Geckodriver](https://github.com/mozilla/geckodriver)
+ - [Page Object Model](https://selenium-python.readthedocs.io/page-objects.html)
 
 
 ## Список зависимостей
