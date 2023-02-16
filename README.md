@@ -59,7 +59,7 @@ requests==2.28.2
 ```
 
 
-## Скриншот
+## Пример запуска
 
 ![App Screenshot](https://i.postimg.cc/FzgZK3RS/image.png)
 
